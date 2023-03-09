@@ -6,4 +6,4 @@ application:
     ingress: true
 pre-exec:
   commands:  
-  - cmd: date # Print the deploy date
+  - cmd: ["echo righe","curl 127.0.0.1:8080"]
