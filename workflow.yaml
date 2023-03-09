@@ -4,7 +4,7 @@ application:
   ports:
   - port: 8080
     ingress: true
-    ingressPath: /
+    ingressPath: /start
 pre-exec:
   commands:  
   - cmd: date # Print the deploy date
