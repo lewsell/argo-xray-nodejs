@@ -2,7 +2,7 @@ version: 0
 application:
   language: nodejs
   ports:
-  - port: 8000
+  - port: 8080
     ingress: true
     ingressPath: /
 pre-exec:
